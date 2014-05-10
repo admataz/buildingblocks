@@ -1,0 +1,19 @@
+{
+  "name": "admataz_static",
+  "version": "0.0.0",
+  "description": "static site build for admataz.com",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "~3.6.2",
+    "marked": "^0.3.2",
+    "handlebars": "^2.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Davis <adam@admataz.com>",
+  "license": "MIT"
+}

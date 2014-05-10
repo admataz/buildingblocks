@@ -1,0 +1,24 @@
+{
+  "name": "admataz_static",
+  "version": "0.0.0",
+  "authors": [
+    "Adam Davis <adam@admataz.com>"
+  ],
+  "description": "static site for admataz.com",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "admataz.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.10"
+  }
+}
