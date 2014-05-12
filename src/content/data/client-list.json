@@ -13,7 +13,7 @@
   },
   {
     "title": "Bookswarm",
-    "descr": "",
+    "descr": "Bookswarm is a small, agile digital agency dedicated to delivering projects to the book publishing trade – publishers, authors, agents and other companies that deliver services to publishing.",
     "logo": "bookswarm.png",
     "id": "bookswarm"
   },
@@ -25,13 +25,13 @@
   },
   {
     "title": "Topshop",
-    "descr": "",
+    "descr": "the style setter and star of your wardrobe...",
     "logo": "topshop.jpg",
     "id": "topshop"
   },
   {
     "title": "NOW: Pensions",
-    "descr": "",
+    "descr": "NOW: Pensions has set out to bring cost-efficiency, performance and simplicity to the UK pensions industry.",
     "logo": "nowpensions.jpg",
     "id": "now-pensions"
   },
@@ -49,25 +49,25 @@
   },
   {
     "title": "Nimbletank",
-    "descr": "",
+    "descr": "An award winning strategic thinking cross platform, mobile application and mobile website agency",
     "logo": "nimbletank.png",
     "id": "nimbletank"
   },
   {
     "title": "The App Business",
-    "descr": "",
+    "descr": "Business-transforming mobile software for the world’s biggest brands.",
     "logo": "theappbusiness.png",
     "id": "the-app-business"
   },
   {
     "title": "33 Digital",
-    "descr": "",
+    "descr": "An international digital PR and social media agency whose sole purpose is to provide brands with access to the right communities and influencers, and to help them connect with them in as human a way as possible.",
     "logo": "33_digital_logo.png",
     "id": "33-digital"
   },
   {
     "title": "Anywhere Working",
-    "descr": "",
+    "descr": "A group initiative which has been established to show how remote working can increase your productivity and wellbeing, save the environment, and most importantly, affect your bottom line in terms of your time and your money.",
     "logo": "anywhereworking.jpg",
     "id": "anywhere-working"
   }

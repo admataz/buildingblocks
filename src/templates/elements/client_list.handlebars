@@ -1,0 +1,13 @@
+<ul class="cf">
+{{#each clients }}
+<li>
+  <div class="project-info">
+  <h3>{{ title }}</h3>
+    <blockquote>
+      {{ descr }}
+    </blockquote>
+  </div>
+  <a href="#"><img src="{{ global.images_path }}/client_avatars/{{ logo }}" alt="" width="128px"></a>
+</li>
+{{/each}}
+</ul>
