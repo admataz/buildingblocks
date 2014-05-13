@@ -1,3 +1,13 @@
+---
+author: Adam Davis
+date: 2013-10-20
+description: A Drupal plugin for publishing a twitter feed
+keywords: Twitter, interface, 
+title: A Twitter timeline plugin for Drupal and WordPress
+published: false
+
+---
+
 A Twitter timeline plugin for Drupal and WordPress
 ==================================================
 

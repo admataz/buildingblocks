@@ -1,3 +1,13 @@
+---
+author: Adam Davis
+date:
+description:
+keywords:
+title:
+published: falsel
+
+---
+
 Establishing an approach to developing custom functionality in WordPress
 ========================================================================
 

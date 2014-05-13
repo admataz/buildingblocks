@@ -1,3 +1,13 @@
+---
+author: Adam Davis
+date: 2014-01-10
+description: An overview of how I am building client-side applications; the technologies, libraries, and methods I use. 
+keywords: javascript, client-side development, methods, tools, libraries, require.js, grunt, bower
+title: My front-end development workflow for Modular JavaScript applications
+published: false
+
+---
+
 My front-end development workflow for Modular JavaScript applications
 ========================================================
 

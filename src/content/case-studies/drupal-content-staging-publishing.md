@@ -1,3 +1,12 @@
+---
+author: Adam Davis
+date: 2013-04-12
+description: Inventing a way to deploy content from one Drupal site to another
+keywords: Drupal, NodeExport, content delpoyment
+title: Staging and deploying content in Drupal
+published: true
+---
+
 Staging content and managing publication of content to live using Drupal
 ========================================================================
 

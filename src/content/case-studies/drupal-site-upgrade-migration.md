@@ -1,3 +1,12 @@
+---
+author: Adam Davis
+date: 2013-12-15
+description: We recently upgraded some client sites from Drupal 6 to Drupal 7. It was more work than we had hoped for. 
+keywords: drupal 6, Drupal 7, migration,
+title: Migrating a large active and customised Drupal 6 site to Drupal 7  
+published: true
+---
+
 Migrating a large active and customised Drupal 6 site to Drupal 7
 =================================================================
 

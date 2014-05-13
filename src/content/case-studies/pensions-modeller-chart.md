@@ -1,3 +1,13 @@
+---
+author: Adam Davis
+date:
+description:
+keywords:
+title: Pensions Modeller and chart using dojo.js charting. admataz.
+published: false
+
+---
+
 Pensions Modeller and chart using dojo.js charting
 ==================================================
 

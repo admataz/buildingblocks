@@ -1,3 +1,15 @@
+---
+author: Adam Davis
+date: 2013-06-01
+description: We learned a bunch of stuff about Push notifications
+keywords:
+title: location aware rich push notifications to iPhones from Drupal using Urban Airship
+published: false
+
+
+---
+
+
 Sending location aware rich push notifications to iPhones from Drupal using Urban Airship
 ====================================================================
 

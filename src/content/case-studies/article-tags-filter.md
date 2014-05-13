@@ -1,4 +1,11 @@
-
+---
+author: Adam Davis
+date: 2012-01-10
+description: Using Drupal to build a faceted navigation and tag-based filtering. 
+keywords: Drupal, faceted, filtering, CMS, PHP, UX
+title: Article filter faceted navigation in Drupal. admataz.
+published: true
+---
 
 
 
