@@ -1,74 +1,63 @@
-[
-  {
+{
+  "clients": [{
     "title": "The Elders",
     "descr": "The Elders is an independent group of global leaders who work together for peace and human rights.",
     "logo": "theelders.jpg",
     "id": "the-elders"
-  },
-  {
+  }, {
     "title": "Africa Check",
     "descr": "Africa Check is a non-profit organisation which promotes accuracy in public debate.",
     "logo": "africa-check.png",
     "id": "africa-check"
-  },
-  {
+  }, {
     "title": "Bookswarm",
     "descr": "Bookswarm is a small, agile digital agency dedicated to delivering projects to the book publishing trade – publishers, authors, agents and other companies that deliver services to publishing.",
     "logo": "bookswarm.png",
     "id": "bookswarm"
-  },
-  {
+  }, {
     "title": "Kofi Annan Foundation",
     "descr": "The Kofi Annan Foundation aims to promote better global governance and strengthen the capacities of people and countries to achieve a fairer, more secure world.",
     "logo": "kofiannan.jpg",
     "id": "kofi-annan-foundation"
-  },
-  {
+  }, {
     "title": "Topshop",
     "descr": "the style setter and star of your wardrobe...",
     "logo": "topshop.jpg",
     "id": "topshop"
-  },
-  {
+  }, {
     "title": "NOW: Pensions",
     "descr": "NOW: Pensions has set out to bring cost-efficiency, performance and simplicity to the UK pensions industry.",
     "logo": "nowpensions.jpg",
     "id": "now-pensions"
-  },
-  {
+  }, {
     "title": "Marie Stopes International",
     "descr": "Marie Stopes place great emphasis on using evidence to continually monitor and evaluate the effectiveness of their health programmes.",
     "logo": "mariesstopes.png",
     "id": "marie-stopes-international"
-  },
-  {
+  }, {
     "title": "National Housing Federation",
     "descr": "The National Housing Federation is the voice of affordable housing in England. We believe that everyone should have the home they need at a price they can afford.",
     "logo": "nhf.jpg",
     "id": "national-housing-federation"
-  },
-  {
+  }, {
     "title": "Nimbletank",
     "descr": "An award winning strategic thinking cross platform, mobile application and mobile website agency",
     "logo": "nimbletank.png",
     "id": "nimbletank"
-  },
-  {
+  }, {
     "title": "The App Business",
     "descr": "Business-transforming mobile software for the world’s biggest brands.",
     "logo": "theappbusiness.png",
     "id": "the-app-business"
-  },
-  {
+  }, {
     "title": "33 Digital",
     "descr": "An international digital PR and social media agency whose sole purpose is to provide brands with access to the right communities and influencers, and to help them connect with them in as human a way as possible.",
     "logo": "33_digital_logo.png",
     "id": "33-digital"
-  },
-  {
+  }, {
     "title": "Anywhere Working",
     "descr": "A group initiative which has been established to show how remote working can increase your productivity and wellbeing, save the environment, and most importantly, affect your bottom line in terms of your time and your money.",
     "logo": "anywhereworking.jpg",
     "id": "anywhere-working"
-  }
-]
+  }]
+}

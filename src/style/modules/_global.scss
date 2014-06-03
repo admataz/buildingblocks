@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'TravelingTypewriter';
+    src: url("../assets/fonts/Traveling _Typewriter/travelingtypewriter.eot");
+    src: url("../assets/fonts/Traveling _Typewriter/travelingtypewriter.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Traveling _Typewriter/travelingtypewriter.woff") format("woff"), url("../assets/fonts/Traveling _Typewriter/travelingtypewriter.ttf") format("truetype"), url("../assets/fonts/Traveling _Typewriter/travelingtypewriter.svg#TravelingTypewriter") format("svg");
+}
+body {
+    font-family: sans-serif;
+    color: #999;
+    margin: 0;
+    padding: 0;
+    background: url(../assets/images/stereo-graticule2.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: -300px -100px;
+    font-family: 'TravelingTypewriter', 'American Typewriter', 'Courier New', serif;
+}
+h1 {
+    /*          margin:0; */
+
+font-size: 28px;
+    font-weight: bold;
+    padding: 0;
+    margin: .5em 0;
+    color: #c30;
+}
+p {
+    padding: 0;
+    margin: .4em 0 1em 0;
+}
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+h3 a {} code {
+    font-family: 'TravelingTypewriter', 'American Typewriter', 'Courier New', serif;
+    color: #333;
+    font-weight: bold;
+    padding: 2px;
+    background-color: rgba(204, 204, 204, 0.5);
+}
+
+.intro{
+    font-size: 36px;
+    color:#333;
+    line-height:110%;
+}
+.footer {
+    font-size: 14px;
+    color: #333;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+.container {
+    width: 80%;
+    max-width: 960px;
+    min-width: 300px;
+    margin: auto;
+}
+#info-x {
+    padding: 4px;
+    margin: 30px 0;
+    /*height: 300px;*/
+
+border-radius: 10px;
+    /*border:1px solid #999;
+    background: rgba(0,0,0,.1);*/
+}
+#info-x ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#info-x li a {
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #999;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    float: left;
+}
+
+#info-x li img{
+    width:100%;
+    border-radius: 10px;
+    
+}
+
+#info-x li {
+    float:left;
+}
+
+#info-x li:before, #info-x li:after {
+    content: " ";
+    /* 1 */
+
+display: table;
+    /* 2 */
+}
+#info-x li:after {
+    clear: both;
+}
+
+#info-x li p {
+    font-size: 14px;
+    line-height: 120%;
+    margin: 8px;
+}
+
+#info-x .project-info blockquote {
+    border-left: none;
+}
+#info-x .project-info {
+
+    display:none;
+} 
+
+
+.logo {
+    margin: 1px auto;
+    padding: 4px 0;
+    width: 90%;
+    max-width: 500px;
+    font-size: 12px;
+    display: block;
+}
+#blocks {
+    width: 100%;
+    margin: 10px 0;
+}
+#blocks svg {
+    width: 100%;
+    height: 100%;
+}
+.svg-logo {
+    width: 80%;
+    max-height: 80px;
+    min-height: 40px;
+    max-width: 500px;
+    margin: 10px auto;
+}
+.svg-logo svg {
+    width: 100%;
+    height: 100%;
+    max-height: 80px;
+    min-height: 40px;
+}
+.nav-panel {
+    float: left;
+    min-width: 300px;
+    width: 30%;
+    margin: 0 2px;
+    display: none;
+}
+.nextlink {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 10px;
+    margin: 1em 0 0 0;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: bold;
+    /*background: rgba(255, 255, 255, 0.6);*/
+
+background: #c30;
+    text-align: center;
+    font-family: 'TravelingTypewriter', 'American Typewriter', 'Courier New', sans-serif;
+}
+.nextlink:hover {
+    background: rgba(204, 51, 0, 0.1);
+}
+.nextlink:hover a {
+    color: #c30;
+}
+.nextlink a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+.nextlink a:hover {
+    color: #c30;
+    text-decoration: underline;
+}
+.nextlink-panel {
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.6);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.nextlink-panel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nextlink-panel li {
+    list-style: none;
+}
+.nextlink-panel a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 4px 20px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+}
+.nextlink-panel a:before {
+    content: "☞ ";
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 0 4px;
+    line-height: 16px;
+    color: #c30;
+}
+.nextlink-panel a:visited {
+    color: #999;
+}
+.nextlink-panel li:first-child a {
+    border-top: none;
+}
+.nextlink-panel a:hover {
+    color: #000;
+    /*text-decoration: underline;*/
+
+/*background-color: rgba(204, 51, 0, .8);*/
+
+background: rgba(0, 153, 153, 0.1);
+    border-color: #999;
+    /*color:#fff;*/
+}
+a.morelink {
+    display: block;
+    text-align: right;
+    color: #c30;
+    font-weight: bold;
+    border-bottom: none;
+}
+.nextlink-panel a.morelink:hover {
+    background: rgba(204, 51, 0, 0.1);
+    border-color: #c30;
+}
+.morelink:after {
+    content: " ☞ ";
+    font-family: arial, helvetica, sans-serif;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 0 4px;
+}
+.nextlink-panel a.morelink:before {
+    content: "";
+}
+#content-main {
+    font-size: 18px;
+    color: #666;
+    overflow: hidden;
+    line-height: 24px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, .7);
+}
+#content-main p {
+    font-family: helvetica, arial, sans-serif;
+}
+#content-main blockquote {
+    border-left: 8px solid #ccc;
+    padding-left: 8px;
+}
+#content-main blockquote code {} .breadcrumb {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.breadcrumb li {
+    float: left;
+    margin-right: 4px;
+}
+.breadcrumb li a {
+    text-decoration: none;
+    color: #666;
+}
+.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+.breadcrumb li a:after {
+    content: " > ";
+}
+
+.cf:before, .cf:after {
+    content: " ";
+    /* 1 */
+
+display: table;
+    /* 2 */
+}
+.cf:after {
+    clear: both;
+}

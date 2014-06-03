@@ -1,8 +1,8 @@
 ---
 author: Adam Davis
-date:
-description:
-keywords:
+date: 2014-01-31
+description: We made an interactive chart to illustrate the differences in performance of different pension funds. 
+keywords: charting, javascript, dojo.js, 
 title: Pensions Modeller and chart using dojo.js charting. admataz.
 published: false
 
