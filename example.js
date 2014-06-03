@@ -1,36 +1,32 @@
-/**
- * generate the client list on the home page
- */
-// var clientlist = require('./lib/clientList');
-// clientlist(function(err, template){
-//   if(err){
-//     return console.log(err);
-//   }
-//   console.log(template);
-// });
 
-/**
- * generate a single page
- */
-// var pageGen = require('./lib/generatePage');
-// pageGen({contentPath:'./src/content/case-studies/code-beauty-art.md'},function(err,path){
-//   if (err) {
-//     return console.log(err);
-//   }
-//   console.log(path);
-// });
+var compilePage = require('./lib/compilePage');
+var writeHtmlPage = require('./lib/writeHtmlPage');
+
+var opts = {
+  docs: {
+    'page': './src/content/case-studies/code-beauty-art.md',
+    'sidebar': './src/content/case-studies/article-tags-filter.md'
+  }, 
+  data: {
+    clientList: './src/content/data/client-list.json',
+    common: './src/content/data/global-content.json'
+  },
+  elements: { 
+    clientList: {
+      template: './src/templates/elements/client_list.handlebars',
+      data: './src/content/data/client-list.json'
+    }
+  },
+  templates:{
+    page: './src/templates/page_home.handlebars',
+    html: './src/templates/html.handlebars'
+  } 
+
+  };
 
 
-/**
- * generate all articles from the src dir
- * @type {[type]}
- */
-var gA = require('./lib/generateArticles');
-gA({}, function(err, path){
-  if(err){
-    return console.log(err);
-  }
-
-  console.log(path);
-
-});
+  compilePage(opts, function(err,result){
+      writeHtmlPage('./build',result, function(err, result){
+          console.log(result);
+      });
+  });
