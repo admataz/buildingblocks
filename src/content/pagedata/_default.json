@@ -1,0 +1,11 @@
+{
+  "docs": {},
+  "data": {
+    "common": "./src/content/data/global-content.json"
+  },
+  "elements": {},
+  "templates": {
+    "page": "./src/templates/page.handlebars",
+    "html": "./src/templates/html.handlebars"
+  }
+}
