@@ -3,23 +3,27 @@ var sass = require('gulp-sass');
 var clean = require('gulp-clean');
 var uglify = require('gulp-uglify');
 
-var gA = require('./lib/generateArticles');
+var articles = require('./buildscripts/articles');
+var pages = require('./buildscripts/pages');
 
-gulp.task('default', ['clean', 'assets', 'sass','uglify'], function() {
-
-});
+gulp.task('default', ['clean', 'assets', 'sass','uglify', 'pages', 'articles'], function() {});
+gulp.task('fe', ['assets', 'sass','uglify'], function() {});
 
 gulp.task('uglify',function(){
   var stream=gulp.src(['./src/bower_components/jquery/jquery.js','./src/js/**/*.js'])
-  .pipe(uglify('main.js', {
+  .pipe(gulp.dest('./build/js'));
+  return stream;
+});
+
+/*
+.pipe(uglify('main.js', {
       mangle: false,
+      compress:false,
       output: {
         beautify: true
       }
     }))
-  .pipe(gulp.dest('./build/js'));
-  return stream;
-});
+ */
 
 gulp.task('sass', function() {
   var stream = gulp.src('./src/style/main.scss')
@@ -44,12 +48,29 @@ gulp.task('clean', function() {
 // gulp.task('libjs',function(){
 //   var stream = gulp.src([])
 // })
+// 
 
-gulp.task('articles', function() {
-  gA({}, function(err, path) {
-    if (err) {
+
+
+gulp.task('pages', function() {
+
+  pages(function(err, files){
+    if(err){
       return console.log(err);
     }
-    console.log(path);
+    console.log(files);
+  });
+
+
+});
+
+
+gulp.task('articles', function() {
+
+ articles(function(err, files){
+    if(err){
+      return console.log(err);
+    }
+    console.log(files);
   });
 });

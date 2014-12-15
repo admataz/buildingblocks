@@ -1,63 +1,63 @@
 {
   "clients": [{
     "title": "The Elders",
-    "descr": "The Elders is an independent group of global leaders who work together for peace and human rights.",
+    "descr": "The Elders is an independent group of global leaders who work together for peace and human rights. admataz built, and continues to develop, support and maintain their Drupal website.",
+    "links": [{"linkUrl": "http://theelders.org", "linkTitle": "theelders.org"}],
     "logo": "theelders.jpg",
     "id": "the-elders"
   }, {
     "title": "Africa Check",
-    "descr": "Africa Check is a non-profit organisation which promotes accuracy in public debate.",
+    "descr": "Africa Check is a non-profit organisation which promotes accuracy in public debate. admataz helped build their initial WordPress site, and have continued to provide support as the site has grown and changed.",
     "logo": "africa-check.png",
+    "links": [{"linkUrl": "http://africacheck.org", "linkTitle": "africacheck.org"}],
     "id": "africa-check"
   }, {
     "title": "Bookswarm",
-    "descr": "Bookswarm is a small, agile digital agency dedicated to delivering projects to the book publishing trade – publishers, authors, agents and other companies that deliver services to publishing.",
+    "descr": "Bookswarm is a small, agile digital agency dedicated to delivering projects to the book publishing trade. admataz developed a series of bespoke tools for importing and publishing book titles from supplied feeds for their clients.",
     "logo": "bookswarm.png",
+    "links": [{"linkUrl": "http://www.bookswarm.co.uk", "linkTitle": "www.bookswarm.co.uk"}],
     "id": "bookswarm"
   }, {
     "title": "Kofi Annan Foundation",
-    "descr": "The Kofi Annan Foundation aims to promote better global governance and strengthen the capacities of people and countries to achieve a fairer, more secure world.",
+    "descr": "The Kofi Annan Foundation aims to promote better global governance and strengthen the capacities of people and countries to achieve a fairer, more secure world. admataz developed the Kofi Annan Foundation website using Drupal.",
     "logo": "kofiannan.jpg",
+    "links": [{"linkUrl": "http://www.kofiannanfoundation.org", "linkTitle": "kofiannanfoundation.org"}],
     "id": "kofi-annan-foundation"
   }, {
     "title": "Topshop",
-    "descr": "the style setter and star of your wardrobe...",
+    "descr": "admataz developed the functionality for the 'Which Kate are you?' quiz as part of the launch of Topshop's 2014 Kate Moss range.",
+    "links": [{"linkUrl": "http://topshop.com/katemoss", "linkTitle": "topshop.com/katemoss"}],
     "logo": "topshop.jpg",
     "id": "topshop"
   }, {
     "title": "NOW: Pensions",
-    "descr": "NOW: Pensions has set out to bring cost-efficiency, performance and simplicity to the UK pensions industry.",
+    "descr": "NOW: Pensions has set out to bring cost-efficiency, performance and simplicity to the UK pensions industry. admataz continues to  develop enhancments and custom features for this WordPress based site.",
     "logo": "nowpensions.jpg",
+    "links": [{"linkUrl": "http://nowpensions.com", "linkTitle": "nowpensions.com"}],
     "id": "now-pensions"
   }, {
     "title": "Marie Stopes International",
-    "descr": "Marie Stopes place great emphasis on using evidence to continually monitor and evaluate the effectiveness of their health programmes.",
+    "descr": "Marie Stopes place great emphasis on using evidence to continually monitor and evaluate the effectiveness of their health programmes. admataz developed a series of information visualisations for the launch of the data section to the global site. ",
     "logo": "mariesstopes.png",
+    "links": [{"linkUrl": "http://mariestopes.org", "linkTitle": "mariestopes.org"}],
     "id": "marie-stopes-international"
   }, {
     "title": "National Housing Federation",
-    "descr": "The National Housing Federation is the voice of affordable housing in England. We believe that everyone should have the home they need at a price they can afford.",
+    "descr": "The National Housing Federation is the voice of affordable housing in England. admataz developed a data mapping application for the NHF to layer data on a regional map of the UK.",
     "logo": "nhf.jpg",
+    "links": [{"linkUrl": "http://www.housing.org.uk/", "linkTitle": "housing.org.uk"}],
     "id": "national-housing-federation"
   }, {
     "title": "Nimbletank",
-    "descr": "An award winning strategic thinking cross platform, mobile application and mobile website agency",
+    "descr": "An award winning strategic thinking cross platform, mobile application and mobile website agency. admataz worked on a contract to develop a Drupal based admin system and web service to an iPhone app.",
     "logo": "nimbletank.png",
+    "links": [{"linkUrl": "http://nimbletank.com", "linkTitle": "nimbletank.com"}],
     "id": "nimbletank"
   }, {
     "title": "The App Business",
-    "descr": "Business-transforming mobile software for the world’s biggest brands.",
+    "descr": "Business-transforming mobile software for the world’s biggest brands. admataz worked on a contract to develop a web service for a pilot iPad application for Unilever.",
     "logo": "theappbusiness.png",
+    "links": [{"linkUrl": "http://www.theappbusiness.com", "linkTitle": "theappbusiness.com"}],
     "id": "the-app-business"
-  }, {
-    "title": "33 Digital",
-    "descr": "An international digital PR and social media agency whose sole purpose is to provide brands with access to the right communities and influencers, and to help them connect with them in as human a way as possible.",
-    "logo": "33_digital_logo.png",
-    "id": "33-digital"
-  }, {
-    "title": "Anywhere Working",
-    "descr": "A group initiative which has been established to show how remote working can increase your productivity and wellbeing, save the environment, and most importantly, affect your bottom line in terms of your time and your money.",
-    "logo": "anywhereworking.jpg",
-    "id": "anywhere-working"
   }]
 }

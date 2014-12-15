@@ -1,0 +1,22 @@
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    li {
+        float: left;
+        margin-right: 4px;
+    }
+    li a {
+        text-decoration: none;
+        color: #666;
+    }
+    li a:hover {
+        text-decoration: underline;
+    }
+    li a:after {
+        content: " > ";
+    }
+}

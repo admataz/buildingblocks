@@ -1,0 +1,9 @@
+{
+    "route": "articles",
+    "docs": {
+        "page": "./src/content/pages/articles.md"
+    },
+    "data": {
+        "common": "./src/content/data/global-content.json"
+    }
+}
