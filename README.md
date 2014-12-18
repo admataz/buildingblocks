@@ -13,7 +13,7 @@ What I want to achieve is:
 - try and avoid rebuilding the whole site for small changes or additions - so some content dependency mapping required
 - content based in markdown and json files
 - separation of content, templates, style and js in src - to be compiled, built, optimised and output to dest
-- use gulp.js (or grunt) to manage/automate the build
+- use gulp.js (or npm scripts, or grunt) to manage/automate the build
 
 
 My thinking so far is this:
@@ -31,6 +31,10 @@ each with a single purpose. There's a bunch of thinking, and resources to link t
 
 - [ ] add resources and links
 - [ ] think about how/where to keep a log of the thinking and progress without making this readme too long and labourious
+
+## Update - 2014-12-18
+I haven't looked at this in 6 months, picking it up again, cleaning up and commenting
+
 
 still very much in pieces
 

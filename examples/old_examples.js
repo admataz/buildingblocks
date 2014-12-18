@@ -8,7 +8,6 @@
 //   }
 //   console.log(template);
 // });
-
 /**
  * generate a single page
  */
@@ -19,8 +18,6 @@
 //   }
 //   console.log(path);
 // });
-
-
 /**
  * generate all articles from the src dir
  * @type {[type]}
@@ -30,7 +27,5 @@
 //   if(err){
 //     return console.log(err);
 //   }
-
 //   console.log(path);
-
 // });

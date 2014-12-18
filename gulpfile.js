@@ -3,8 +3,10 @@ var sass = require('gulp-sass');
 var clean = require('gulp-clean');
 var uglify = require('gulp-uglify');
 
+
 var articles = require('./buildscripts/articles');
 var pages = require('./buildscripts/pages');
+
 
 gulp.task('default', ['clean', 'assets', 'sass','uglify', 'pages', 'articles'], function() {});
 gulp.task('fe', ['assets', 'sass','uglify'], function() {});
