@@ -21,7 +21,9 @@ module.exports = function(cb) {
         return true;
       }
     });
-    async.each(files, function(i, cb) {
+
+    // need to do this in series - otherwise we lose the scope 
+    async.eachSeries(files, function(i, callback) {
       jf.readFile('./src/content/pagedata/' + i, function(err, pageOptions) {
         pageOptions = _.merge(options, pageOptions);
         compilePage(pageOptions, function(err, result) {
@@ -29,7 +31,7 @@ module.exports = function(cb) {
             return console.log(err);
           }
           writeHtmlPage('./build/' + pageOptions.route, result, function(err, result) {
-            cb();
+            callback();
           });
         });
       });

@@ -1,7 +1,8 @@
 {
     "route": "",
     "docs": {
-        "page": "./src/content/pages/home.md"
+        "page": "./src/content/pages/home.md",
+        "about": "./src/content/pages/home-about.md"
     },
     "data": {
         "common": "./src/content/data/global-content.json"
@@ -11,6 +12,7 @@
             "template": "./src/templates/elements/client_list.handlebars",
             "data": "./src/content/data/client-list.json"
         }
+
     },
     "templates": {
         "page": "./src/templates/page_home.handlebars",

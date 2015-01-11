@@ -7,11 +7,25 @@ var async = require('async');
 var jf = require('jsonfile');
 var compilePage = require('../lib/compilePage');
 var writeHtmlPage = require('../lib/writeHtmlPage');
+
+var indexPages = require('../lib/indexPages');
+var loadDocument = require('../lib/loadDocument');
+
 // set the default options from the config file
 var options = jf.readFileSync('./src/content/pagedata/_default.json');
 
 // TODO: allow custom options to merge with default
 
+
+function doPageIndex(src, dest, cb){
+  loadDocument(src,function(err,doc){
+    indexPages({contentPath:'./build/articles/', fileName: dest, doc:doc }, function(err){
+      cb();
+    });
+  });
+
+
+}
 
 module.exports = function(cb) {
 // read the directory containing the markdown
@@ -27,17 +41,30 @@ module.exports = function(cb) {
     });
 
     // for each file - do the compilation
-    async.each(files, function(i, cb) {
+    async.eachSeries(files, function(i, cb) {
       options.docs.page = './src/content/case-studies/' + i;
       compilePage(options, function(err, result) {
         if (err) {
           return console.log(err);
         }
-        writeHtmlPage('./build/articles/' + path.basename(i, '.md'), result, function(err, result) {
-          cb();
+        var dest = './build/articles/' + path.basename(i, '.md');
+        writeHtmlPage(dest, result, function(err, filePath) {
+          if(err){
+            return console.log(err);
+          }
+          doPageIndex(options.docs.page, filePath, function(err){
+            if(err){
+              return console.log(err);
+            }
+            cb();
+          });
         });
       });
     }, function(err) {
+
+      
+
+
       return cb(err, files);
     });
   });
