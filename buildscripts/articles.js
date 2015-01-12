@@ -19,7 +19,7 @@ var options = jf.readFileSync('./src/content/pagedata/_default.json');
 
 function doPageIndex(src, dest, cb){
   loadDocument(src,function(err,doc){
-    indexPages({contentPath:'./build/articles/', fileName: dest, doc:doc }, function(err){
+    indexPages({contentPath:'articles/', fileName: dest, doc:doc, systemPath: './build/'}, function(err){
       cb();
     });
   });

@@ -1,6 +1,5 @@
 /**
  * generate static html for all pages 
- * @type {[type]}
  */
 var fs = require('fs');
 var path = require('path');
