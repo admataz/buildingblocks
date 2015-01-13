@@ -8,5 +8,3 @@ published: true
 ---
 
 ## Adam Davis
-
-Maybe I need some content in here

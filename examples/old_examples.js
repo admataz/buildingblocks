@@ -12,7 +12,7 @@
  * generate a single page
  */
 // var pageGen = require('./lib/generatePage');
-// pageGen({contentPath:'./src/content/case-studies/code-beauty-art.md'},function(err,path){
+// pageGen({contentPath:'./src/content/articles/code-beauty-art.md'},function(err,path){
 //   if (err) {
 //     return console.log(err);
 //   }

@@ -1,5 +1,8 @@
 {
-  "docs": {},
+  "docs": {
+    "contact": "./src/content/pages/contact-short.md",
+    "site-about": "./src/content/pages/site-about.md"
+    },
   "data": {
     "common": "./src/content/data/global-content.json"
   },
@@ -7,5 +10,6 @@
   "templates": {
     "page": "./src/templates/page.handlebars",
     "html": "./src/templates/html.handlebars"
-  }
+  },
+  "customBuild": ""
 }

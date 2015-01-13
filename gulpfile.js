@@ -9,7 +9,7 @@ var articles = require('./buildscripts/articles');
 var pages = require('./buildscripts/pages');
 
 
-gulp.task('build', ['clean', 'assets', 'sass','uglify', 'pages', 'articles'], function() {});
+gulp.task('build', ['clean', 'assets', 'sass','uglify','articles', 'pages' ], function() {});
 gulp.task('fe', ['assets', 'sass','uglify'], function() {});
 
 gulp.task('default', function(){

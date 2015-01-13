@@ -2,7 +2,8 @@
     "route": "",
     "docs": {
         "page": "./src/content/pages/home.md",
-        "about": "./src/content/pages/home-about.md"
+        "about": "./src/content/pages/home-about.md",
+        "creative-communication": "./src/content/pages/creative-communication.md"
     },
     "data": {
         "common": "./src/content/data/global-content.json"
@@ -17,5 +18,6 @@
     "templates": {
         "page": "./src/templates/page_home.handlebars",
         "html": "./src/templates/html.handlebars"
-    }
+    },
+    "customBuild": ""
 }

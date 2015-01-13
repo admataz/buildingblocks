@@ -15,7 +15,7 @@ var loadDocument = require('../lib/loadDocument');
 var options = jf.readFileSync('./src/content/pagedata/_default.json');
 
 // TODO: allow custom options to merge with default
-
+options.templates.page = "./src/templates/page_article.handlebars";
 
 function doPageIndex(src, dest, cb){
   loadDocument(src,function(err,doc){
@@ -29,7 +29,7 @@ function doPageIndex(src, dest, cb){
 
 module.exports = function(cb) {
 // read the directory containing the markdown
-  fs.readdir('./src/content/case-studies', function(err, files) {
+  fs.readdir('./src/content/articles', function(err, files) {
     if (err) {
       return cb(err);
     }
@@ -42,7 +42,8 @@ module.exports = function(cb) {
 
     // for each file - do the compilation
     async.eachSeries(files, function(i, cb) {
-      options.docs.page = './src/content/case-studies/' + i;
+      options.docs.page = './src/content/articles/' + i;
+
       compilePage(options, function(err, result) {
         if (err) {
           return console.log(err);

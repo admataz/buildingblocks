@@ -3,9 +3,9 @@
  */
 var fs = require('fs');
 var loadDocumentList = require('./lib/loadDocumentList');
-fs.readdir('./src/content/case-studies/', function(err, files) {
+fs.readdir('./src/content/articles/', function(err, files) {
   files = files.map(function(itm, i) {
-    return './src/content/case-studies/' + itm;
+    return './src/content/articles/' + itm;
   });
   loadDocumentList(files, function(err, results) {
     console.log(results);

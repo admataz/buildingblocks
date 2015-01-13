@@ -7,4 +7,4 @@ title: admataz. code, content, design. London UK.
 published: true
 ---
 
-# We build web sites for great people and good organisations...
+# We build web sites that make a difference.

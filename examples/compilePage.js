@@ -2,8 +2,8 @@ var compilePage = require('./lib/compilePage');
 var writeHtmlPage = require('./lib/writeHtmlPage');
 var opts = {
   docs: {
-    'page': './src/content/case-studies/code-beauty-art.md',
-    'sidebar': './src/content/case-studies/article-tags-filter.md'
+    'page': './src/content/articles/code-beauty-art.md',
+    'sidebar': './src/content/articles/article-tags-filter.md'
   },
   data: {
     clientList: './src/content/data/client-list.json',
