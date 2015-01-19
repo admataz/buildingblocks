@@ -1,0 +1,3 @@
+### Looking for a web developer or consultant? Hire admataz.
+
+I am available for freelance projects, project collaborations and short contract assignments. I provide a range of hands-on technical services: programming custom server applications with PHP or node.js; developing advanced interaction and webapps in the browser with JavaScript; and developing content-managed sites with Drupal and WordPress. 

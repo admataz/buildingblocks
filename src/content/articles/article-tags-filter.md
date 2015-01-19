@@ -3,7 +3,7 @@ author: Adam Davis
 date: 2012-01-10
 description: Using Drupal to build a faceted navigation and tag-based filtering. 
 keywords: Drupal, faceted, filtering, CMS, PHP, UX
-title: Article filter faceted navigation in Drupal. admataz.
+title: Article filter faceted navigation in Drupal.
 published: true
 ---
 
@@ -12,9 +12,9 @@ published: true
 Article list tag filter in Drupal
 =================================
 
-A site that publishes articles regularly can over time bury older relevant content. 
+A site that publishes articles regularly can, over time, bury older relevant content. 
 
-Here we explain the information architecture and server-side technical challenges we faced setting up new organisational structures in a Drupal site to tackle the issue of accessing older content. 
+Here I explain the information architecture and server-side technical challenges I faced setting up new organisational structures in a Drupal site to tackle the issue of accessing older content. 
 
 ## Drupal's taxonomy system
 Drupal makes it easy to tag and categorise content using Drupal's native taxonomy module. Custom vocabularies, Taxonomy Fields, and Content Types provide the tools to design a fluid and emergent 'bottom-up' organisation to content: structure emerges from the qualities and properties of the content. 

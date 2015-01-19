@@ -1,5 +1,6 @@
 ---
 published: true
 ---
-## About admataz
-admataz is a web development consultancy based in London UK, and owned and managed by me, Adam Davis. I supply organisations and creative agencies with the technical services and expertise to build web sites, content management tools, web apps, and interactive data visualisations. 
+## More than code and process.
+While all web sites are constructed with the core mechanics of code and data, the world wide web is a living, networked platform for people, ideas and culture. This understanding of people-centredness is core to my approach to technical implementation. I use PHP, JavaScript and a range of open web technologies and frameworks to make websites that are for people to click.
+

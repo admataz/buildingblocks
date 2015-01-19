@@ -1,15 +1,15 @@
 ---
-Author: Adam Davis  
-Date: 24 August 2011  
-Description: A quick explanation of the new redesign effort underway at admataz.com  
-Keywords: redesign, manifesto  
-Title: A fresh start for admataz 
+author: Adam Davis  
+date: 2015-01-14 
+description: A quick explanation of the new redesign effort underway at admataz.com  
+keywords: redesign, manifesto  
+title: the new, new admataz website manifesto 
 published: true
 ---
 
 # the new, new admataz website manifesto
 
-I originally wrote this in 2011 for a previous version of admataz.com - to keep my efforts on track. Reviewing it now (2015), while admataz has grown into a more formal business entity and I am working more directly with clients as opposed to a freelance contractor -   I think it is still relevant to my approach to this site. 
+I originally wrote this in 2011 for a previous version of admataz.com to keep my efforts on track. Reviewing it again now in 2015,  admataz has grown into a more formal business entity and I am working more directly with clients as opposed to daily freelance contract work.   I think this is still relevant to my approach to this site. 
 
 
 ### This is my web site, and here’s the thinking behind it:

@@ -3,7 +3,7 @@ author: Adam Davis
 date: 2013-06-11
 description: Overview of how we used Drupal as the CMS to for an iOS app
 keywords: Drupal, RESTful, iOS, services, CMS
-title: Drupal as the CMS for a restful API for an iPhone App. admataz
+title: Drupal as the CMS for a restful API for an iPhone App.
 published: true
 ---
 

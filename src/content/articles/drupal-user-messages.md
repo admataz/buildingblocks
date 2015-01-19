@@ -3,8 +3,8 @@ author: Adam Davis
 date: 2014-01-15
 description: A feature to encourage meaningful and valuable user comments
 keywords: Drupal, UGC, JavaScript, 
-title: A "Messages of Support" module. admataz
-published: true
+title: A "Messages of Support" module.
+published: false
 ---
 
 A "Messages of Support" module for Drupal

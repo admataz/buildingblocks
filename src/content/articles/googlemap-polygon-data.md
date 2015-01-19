@@ -3,7 +3,7 @@ author: Adam Davis
 date: 2014-02-25
 description: We developed an application for overlaying data on a map of regions of the UK. 
 keywords: Google Maps API, JavaScript, Dojo Toolkit, qGIS,
-title: Polygon data layer for Google Maps. admataz.
+title: Polygon data layer for Google Maps.
 published: false
 
 ---

@@ -40,7 +40,7 @@ p {
 }
 
 h2 {
-    color: #333;
+    color: #c30;
     font-size: 24px;
     margin: 0;
     padding: 0;
@@ -48,7 +48,11 @@ h2 {
     -moz-font-smoothing: antialiased;
 }
 
-h3 a {}
+h3 {
+    margin: 0;
+    padding: 0;
+
+}
 
 code {
     font-family: 'TravelingTypewriter', 'American Typewriter', 'Courier New', serif;
@@ -56,6 +60,10 @@ code {
     font-weight: bold;
     padding: 2px;
     background-color: rgba(204, 204, 204, 0.5);
+}
+
+a{ 
+    text-decoration: none;
 }
 
 .cf:before, .cf:after {

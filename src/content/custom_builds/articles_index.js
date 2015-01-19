@@ -1,5 +1,5 @@
+
 var fs = require('fs');
-// console.log(__dirname);
 var loadDocument = require('../../../lib/loadDocument');
 var loadTemplate = require('../../../lib/loadTemplate');
 var path = require('path');
@@ -7,48 +7,40 @@ var async = require('async');
 var _ = require('lodash');
 
 
-module.exports = function(cb){
+module.exports = function(cb) {
   var pageOptions = {};
-
-
   fs.readdir('./src/content/articles', function(err, files) {
     if (err) {
       return cb(err);
     }
     var docs = [];
     // get a list of markdown files
-    async.eachSeries(files,function(itm, callback) {
+    async.eachSeries(files, function(itm, callback) {
       if (path.extname(itm) === ".md") {
-
-        loadDocument('./src/content/articles/'+itm, function(err, result){
-          // console.log(result);
-          if(err){
+        loadDocument('./src/content/articles/' + itm, function(err, result) {
+          if (err) {
             return cb(err);
           }
-          
-          if(result.meta.published){
-            result.meta.path = path.basename(itm,'.md');
+          if (result.meta.published) {
+            result.meta.path = path.basename(itm, '.md');
             docs.push(result);
           }
-          
           callback();
         });
-
-
       }
-    }, function(err){
-
+    }, function(err) {
 
       docs = _.sortBy(docs, function(itm) {
-        return -(new Date(itm.date));
+        return -(new Date(itm.meta.date));
       });
-      loadTemplate({docs:docs},'./src/templates/elements/articles_list.handlebars', function(err, compiled){
-        pageOptions.prerendered = {article_list:compiled};  
+      loadTemplate({
+        docs: docs
+      }, './src/templates/elements/articles_list.handlebars', function(err, compiled) {
+        pageOptions.prerendered = {
+          article_list: compiled
+        };
         return cb(err, pageOptions);
       });
     });
-
-
   });
-
 };
