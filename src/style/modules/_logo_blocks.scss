@@ -9,7 +9,11 @@
 
 #blocks {
     width: 100%;
+    height: 100%;
+    position:absolute;
+    z-index: 1;
     margin: 10px 0;
+    top:-20px;
 }
 
 #blocks svg {
@@ -19,14 +23,19 @@
 
 .svg-logo {
     width: 80%;
-    max-height: 80px;
+    max-height: 120px;
     min-height: 40px;
-    max-width: 500px;
-    margin: 10px auto;
+    // max-width: 500px;
+    margin: 100px auto 10px auto;
+    z-index: 10;
+    position:relative;
     svg {
         width: 100%;
         height: 100%;
-        max-height: 80px;
+        max-height: 120px;
         min-height: 40px;
+        .svgbit{
+            fill: rgba(0,0,0,0.85);
+        }
     }
 }

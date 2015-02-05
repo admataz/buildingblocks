@@ -19,9 +19,29 @@
     
     {{{ pageContent }}}
 
+{{! fixed height: ylimit * scale + scale * scale }}
+{{{{raw-helper}}}}
+   <script type="text/template" id="blocks-template">
+
+  <div style="position:absolute; top: {{scrollTop}}px; height:100%; width:100%" >
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="blocks-svg" viewbox="0 0 {{xlimit * 4}} {{ylimit}}" preserveaspectratio="xMinYMin meet">
+ 
+ {{#each blocks}} 
+  <g transform="matrix({{scale}} 0 0 {{scale}} {{xpos + xoffset*randomizer}} {{ypos + yoffset*randomizer}})" fill="{{fillColour}}" stroke="{{strokeColour}}" stroke-width="{{strokeWidth}}">
+  <polygon points="2,2 0,1 2,0 4,1" fill="{{fillColourTop}}" class="cubeTop"></polygon>
+  <polygon points="2,2 2,4 0,3 0,1" fill="{{fillColourFrontLeft}}" class="cubeFrontLeft"></polygon>
+  <polygon points="2,2 4,1 4,3 2,4" fill="{{fillColourFrontRight}}" class="cubeFrontRight"></polygon></g>
+  {{/each}}
+  
+  </svg>
+  </div>
+  </script>
+{{{{/raw-helper}}}}
+
     <script src="/js/jquery.js"></script>
     <script src="/js/admataz_svg_logo.js"></script>
-    <script src="/js/admataz_blocks.js"></script>
+    <script src='/js/ractive.js'></script>
+    <script src="/js/admataz_blocks_ractive.js"></script>
     <script src="/js/client_list.js"></script>
   </body>
 </html>

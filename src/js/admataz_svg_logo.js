@@ -50,8 +50,15 @@
       for (var y = 0; y < admataz.length; y++) {
         if (admataz[y][x] === "1") {
           isspace = false;
-          piece = $(SVG('rect')).attr('x', x * bitwidth + x * xspace).attr('y', y * bitheight + y * yspace).attr('height', bitheight).attr('width', bitwidth).attr('fill', 'black').attr('data-x', x).attr('data-y', y).attr('class', 'svgbit')
-            .appendTo(letter);
+          piece = $(SVG('rect'))
+          .attr('x', x * bitwidth + x * xspace)
+          .attr('y', y * bitheight + y * yspace)
+          .attr('height', bitheight).attr('width', bitwidth)
+          // .attr('fill', 'rgba(0,0,0,0.6)')
+          .attr('data-x', x)
+          .attr('data-y', y)
+          .attr('class', 'svgbit')
+          .appendTo(letter);
         }
       }
     }

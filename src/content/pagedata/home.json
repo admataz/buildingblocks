@@ -19,6 +19,5 @@
     "templates": {
         "page": "./src/templates/page_home.handlebars",
         "html": "./src/templates/html.handlebars"
-    },
-    "customBuild": ""
+    }
 }

@@ -129,7 +129,7 @@
     var isspace = true;
     var letter = null;
     var xoffset, yoffset;
-    var scale = 10; //container.width() / admataz[0].length / 4;
+    var scale = 10;
 
     var y = 0;
     var x = 0;
@@ -137,8 +137,8 @@
     var dwidth = $(window).width();
     var dheight = $(window).height();
 
-    console.log('height:' + dheight);
-    console.log('width:' + dwidth);
+    // console.log('height:' + dheight);
+    // console.log('width:' + dwidth);
 
     if (dwidth <= 640) {
       scale = 7;

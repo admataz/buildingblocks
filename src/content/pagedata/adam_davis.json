@@ -8,9 +8,6 @@
     },
     "elements": {
         
-    },
-    "templates": {
-        "page": "./src/templates/page.handlebars",
-        "html": "./src/templates/html.handlebars"
     }
+
 }

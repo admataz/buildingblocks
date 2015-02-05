@@ -1,0 +1,11 @@
+{
+    "route": "buildingblocks",
+    "data":{
+      "common": null
+    },
+    "js":["./src/scripts/contentscript.js"],
+    "css":[]
+
+
+   
+}

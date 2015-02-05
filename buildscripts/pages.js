@@ -21,7 +21,7 @@ module.exports = function(cb) {
     async.eachSeries(files, function(i, callback) {
         var pageOptions = {};
         pageOptions = jf.readFileSync('./src/content/pagedata/' + i);
-        pageOptions = _.merge(options, pageOptions);
+        pageOptions = _.merge({}, options, pageOptions);
         compilePage(pageOptions, function(err, result) {
           if (err) {
             return console.log(err);
