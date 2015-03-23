@@ -64,6 +64,13 @@ code {
 
 a{ 
     text-decoration: none;
+    color: #666;
+    font-weight:bold;
+}
+
+a:hover{
+    color:#c30;
+
 }
 
 .cf:before, .cf:after {
@@ -75,4 +82,16 @@ a{
 
 .cf:after {
     clear: both;
+}
+
+
+.screenshots{
+    width:100%;
+    img{
+    max-width: 95%;
+    
+    border: 4px solid #ccc;
+    padding: 4px;
+    margin: 4px;
+    }
 }

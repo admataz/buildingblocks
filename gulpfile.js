@@ -7,9 +7,10 @@ var del = require('del');
 
 var articles = require('./buildscripts/articles');
 var pages = require('./buildscripts/pages');
+var case_studies = require('./buildscripts/case_studies');
 
 
-gulp.task('build', ['clean', 'assets', 'sass','uglify','articles', 'pages' ], function() {});
+gulp.task('build', ['clean', 'assets', 'sass','uglify','articles', 'pages','case_studies' ], function() {});
 gulp.task('fe', ['assets', 'sass','uglify'], function() {});
 
 gulp.task('default', function(){
@@ -89,3 +90,16 @@ gulp.task('articles', ['clean'],  function() {
     // console.log(files);
   });
 });
+
+
+
+gulp.task('case_studies', ['clean'],  function() {
+
+ case_studies(function(err, files){
+    if(err){
+      return console.log(err);
+    }
+    // console.log(files);
+  });
+});
+

@@ -1,0 +1,13 @@
+{
+    "route": "case-studies",
+    "docs": {
+        "page": "./src/content/pages/case-studies.md"
+    },
+    "data": {
+        "common": "./src/content/data/global-content.json"
+    },
+    "customBuild": "../src/content/custom_builds/case_studies_index",
+    "templates": {
+      "page": "./src/templates/page_article_index.handlebars"
+    }
+}

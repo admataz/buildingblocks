@@ -12,12 +12,12 @@ var loadDocument = require('../lib/loadDocument');
 // set the default options from the config file
 var options = jf.readFileSync('./src/content/pagedata/_default.json');
 // TODO: allow custom options to merge with default
-options.templates.page = "./src/templates/page_article.handlebars";
+options.templates.page = "./src/templates/page_case_studies.handlebars";
 
 function doPageIndex(src, dest, cb) {
   loadDocument(src, function(err, doc) {
     indexPages({
-      contentPath: 'articles/',
+      contentPath: 'case-studies/',
       fileName: dest,
       doc: doc,
       systemPath: './build/'
@@ -28,7 +28,7 @@ function doPageIndex(src, dest, cb) {
 }
 module.exports = function(cb) {
   // read the directory containing the markdown
-  fs.readdir('./src/content/articles', function(err, files) {
+  fs.readdir('./src/content/case_studies', function(err, files) {
     if (err) {
       return cb(err);
     }
@@ -40,12 +40,12 @@ module.exports = function(cb) {
     });
     // for each file - do the compilation
     async.eachSeries(files, function(i, cb) {
-      options.docs.page = './src/content/articles/' + i;
+      options.docs.page = './src/content/case_studies/' + i;
       compilePage(options, function(err, result) {
         if (err) {
           return console.log(err);
         }
-        var dest = './build/articles/' + path.basename(i, '.md');
+        var dest = './build/case-studies/' + path.basename(i, '.md');
         writeHtmlPage(dest, result, function(err, filePath) {
           if (err) {
             return console.log(err);

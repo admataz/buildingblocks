@@ -7,4 +7,5 @@ title: Words by Adam Davis, owner and director of admataz.
 published: true
 ---
 
-# Notes and observations by admataz...
+# admataz case studies...
+
