@@ -1,0 +1,13 @@
+{
+    "route": "about-colophon",
+    "docs": {
+        "page": "./src/content/pages/site-about.md"
+    },
+    "data": {
+        "common": "./src/content/data/global-content.json"
+    },
+    "elements": {
+        
+    }
+
+}

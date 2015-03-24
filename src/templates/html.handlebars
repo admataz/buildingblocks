@@ -11,6 +11,15 @@
     <meta name="author" content="{{ docs.page.meta.author }}">
     <meta name="viewport" content="width=device-width">
 
+
+    <meta property="og:title" content="{{ docs.page.meta.title }}" />
+    <meta property="og:url" content="http://admataz.com{{route}}/" />
+    <meta property="og:description" content="{{ docs.page.meta.description }}" />
+    <meta property="og:site_name" content="admataz. Web apps and bespoke web development, London UK" />
+    <meta property="og:image" content="http://admataz.com/assets/images/admataz_front.png" />
+
+
+
     <link rel="stylesheet" href="/css/main.css">
     <script src="//use.typekit.net/ubc1oxm.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
@@ -19,6 +28,9 @@
     
     {{{ pageContent }}}
 
+    <div class="copyright">
+    All content, design and code &copy; Adam Davis 2015
+    </div>
 {{! fixed height: ylimit * scale + scale * scale }}
 {{{{raw-helper}}}}
    <script type="text/template" id="blocks-template">
@@ -43,5 +55,15 @@
     <script src='/js/ractive.js'></script>
     <script src="/js/admataz_blocks_ractive.js"></script>
     <script src="/js/client_list.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-310888-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
   </body>
 </html>

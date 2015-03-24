@@ -1,7 +1,8 @@
 {
   "docs": {
     "contact": "./src/content/pages/contact-short.md",
-    "site-about": "./src/content/pages/site-about.md"
+    "about": "./src/content/pages/about-short.md",
+    "site-links": "./src/content/pages/site-links.md"
     },
   "data": {
     "common": "./src/content/data/global-content.json"

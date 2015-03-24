@@ -18,5 +18,5 @@ In late 2014 we launched a new version of the site, building on the successful d
 Link: [The Elders](http://theelders.org)
 
 <div class="screenshots">
-![The Elders website screenshot](/assets/images/case-studies/theelders.png)
+[![The Elders website screenshot](/assets/images/case-studies/theelders.png)](http://theelders.org)
 </div>

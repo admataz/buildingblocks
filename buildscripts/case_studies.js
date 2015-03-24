@@ -41,6 +41,9 @@ module.exports = function(cb) {
     // for each file - do the compilation
     async.eachSeries(files, function(i, cb) {
       options.docs.page = './src/content/case_studies/' + i;
+      
+      options.route = 'case-studies/' + path.basename(i, '.md');
+
       compilePage(options, function(err, result) {
         if (err) {
           return console.log(err);

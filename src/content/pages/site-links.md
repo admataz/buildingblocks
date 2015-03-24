@@ -1,10 +1,11 @@
 ---
 published: true
 ---
-## [Recent work and case studies](/case-studies)
 
-Some short descriptions of [recent projects](/case-studies).
+## More on admataz.com
 
-## [Notes and observations](/articles)
-
-I occasionally write [a few words](/articles) about my daily adventures as a web developer. 
+- [Case Studies: Recent work by admataz](/case-studies)
+- [Articles: Developer notes and observations](/articles)
+- [admataz.com site colophon](/about-colophon)
+- [Adam Davis](/adam-davis)
+- [Home](/)

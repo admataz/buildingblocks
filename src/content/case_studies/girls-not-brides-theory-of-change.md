@@ -11,6 +11,11 @@ published: true
 [Girls Not Brides](http://www.girlsnotbrides.org/) is a global partnership of more than 400 civil society organisations from over 60 countries working to address child marriage. The [Theory of Change](http://www.girlsnotbrides.org/child-marriage-theory-of-change/) is informed by the knowledge and experience of more than 150 Girls Not Brides members and experts about what it will take to end child marriage.
 
 In collaboration with digital strategist, [Adam Brown](https://www.linkedin.com/pub/adam-brown/15/85/419), we devised and developed an interactive version of the Theory of Change that makes it a valuable tool in the organisation’s media toolkit.
+
+
+### Link: 
+- [Interactive Theory of Change](http://www.girlsnotbrides.org/child-marriage-theory-of-change/)
+
 <div class="screenshots">
-![Girls Not Brides Theory of Change Screenshot](/assets/images/case-studies/gnb.png)
+[![Girls Not Brides Theory of Change Screenshot](/assets/images/case-studies/gnb.png)](http://www.girlsnotbrides.org/child-marriage-theory-of-change/)
 </div>

@@ -6,10 +6,17 @@
 }
 
 .footer {
-    font-size: 18px;
-    color: #333;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #999;
+    font-size: 14px;
+    color: #999;
     margin: 20px 0;
-    padding: 20px 0;
+    padding: 20px;
+    h2{
+        font-size: 18px;
+        margin:0;
+    }
 }
 
 .container {
@@ -37,4 +44,10 @@
         padding-left: 8px;
     }
     blockquote code {}
+}
+
+.copyright{
+    font-size:12px;
+    margin:20px 0;
+    text-align: center;
 }
